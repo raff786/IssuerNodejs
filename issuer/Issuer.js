@@ -11,7 +11,7 @@ const PORT = 4000
 const verityUrl = 'https://vas.pps.evernym.com' // address of Verity Application Server
 const domainDid = '4k4pM4WM8iaoHFou5gc52P' // your Domain DID on the multi-tenant Verity Application Server
 const xApiKey = 'q41CTo5HYv4XhADGBBVjfU9v6aWFeEuXCTREvTTURda:sLaopyanPhxgEh1S4CBPKYLpz2B35ER3YaXBk5j4nDXs45j8tcfKdsmiuQCbtuuk8QJQNcCa7K4TX9wtLQrT9d1' // REST API key associated with your Domain DID
-const webhookUrl = 'http://c6400d53d576.ngrok.io/webhook' // public URL for the webhook endpoint
+const webhookUrl = 'http://5099ff367c47.ngrok.io/webhook' // public URL for the webhook endpoint
 
 // Sends Verity REST API call to Verity Application server
 async function sendVerityRESTMessage (qualifier, msgFamily, msgFamilyVersion, msgName, message, threadId) {
